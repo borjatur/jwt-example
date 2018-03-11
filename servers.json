@@ -1,0 +1,17 @@
+{
+    "apps" : [{
+      "name": "identity",
+      "script": "./identity/index.js",
+      "watch": true,
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },{
+      "name": "service",
+      "script": "./service/index.js",
+      "watch": true,
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }]
+  }
